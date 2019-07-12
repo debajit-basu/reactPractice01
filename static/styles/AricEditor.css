@@ -1,0 +1,94 @@
+	    .aric-editor {
+            border: 2px solid darkgray;
+            width: auto;
+            height: 20rem;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            background-color: #fff;
+            padding: 0 0 0 5px;
+            /*padding: 0 1rem 0 1rem;*/
+        }
+        .aric-editor-source {
+            border: 2px solid darkgray;
+            width: auto;
+            height: 20rem;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            background-color: #fff;
+            padding: 0 0 0 5px;
+            /*padding: 0 1rem 0 1rem;*/
+        }
+        .editor-btn {
+            border: none;
+            margin: 10px 3px 10px 3px;
+            border-radius: 3px;
+            background-color: #262B49 ;
+            color: white;
+            padding: 3px 10px 3px 10px;
+        }
+        .editor-btn-click {
+            border: none;
+            margin: 10px 3px 10px 3px;
+            border-radius: 3px;
+            background-color: #3c4a9b ;
+            color: white;
+            padding: 3px 10px 3px 10px;
+        }
+        .btn-group {
+            /*display: flex;*/
+            width: 100%;
+            background-color: #efefef;
+            border: 1px solid black;
+        }
+        .active {
+            display: block;
+        }
+        .inactive {
+            display: none;
+        }
+        .highlight-backend {
+            background-color: #fcf81e;
+        }
+        button:disabled,
+        button[disabled]{
+            background-color: #cccccc;
+            color: #666666;
+            cursor: not-allowed;
+        }
+
+
+
+        /*Math Jax Style*/
+        .mathjax-manual-style{
+            display: inline;
+            font-style: normal;
+            font-weight: normal;
+            font-family: MathJax_Math-italic;
+            line-height: normal;
+            font-size: 100%;
+            font-size-adjust: none;
+            text-indent: 0;
+            text-align: center;
+            text-transform: none;
+            letter-spacing: normal;
+            word-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            float: none;
+            direction: ltr;
+            max-width: none;
+            max-height: none;
+            min-width: 0;
+            min-height: 0;
+            border: 0;
+            padding: 0;
+            margin: 0;
+            color: #6c757d !important;
+        }
+
+        .passage-line-no{
+            padding: 0 6px;
+            background: #343A40;
+            font-weight: bold;
+            color: #fff;
+        }

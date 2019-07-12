@@ -1,0 +1,28 @@
+.loginPanel {
+    background: #716ACA;  /* fallback for old browsers */
+}
+
+#userVerify .modal-content {
+    padding: 2rem;
+}
+
+.auth-header.loading {
+    width: 25px;
+    height: 25px;
+    border: 2px solid rgba(0,0,0,.1);
+    border-top-color: #FFFFFF;
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+}
+
+.reset-email-popover {
+    min-width: 400px;
+    left: -5px !important;
+}
