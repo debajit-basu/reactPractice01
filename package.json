@@ -1,5 +1,5 @@
 {
-  "name": "clg_admin_v2",
+  "name": "boilerPlate",
   "version": "1.0.0",
   "description": "NPM dependencies for REACT Client",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "export": "npm run build && next export",
     "test": "jest"
   },
-  "author": "Collegify Tech Team",
+  "author": "Debajit Basu",
   "license": "ISC",
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
